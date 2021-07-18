@@ -1,0 +1,74 @@
+body{
+    font-size: 30px;
+
+}
+.container{
+    margin: 0 auto;
+    max-width: 1440px;
+    height: 800px;
+    text-align: center;
+    margin-top:10rem;
+}
+input[type=text]{
+    width: 20rem;
+    height: 40px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+button{
+   width: 10rem;
+   height: 40px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   border:none;
+   transform: translate(-50%, -50%) ;
+   border-radius: 6px;
+   -webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+   -ms-border-radius: 6px;
+   -o-border-radius: 6px;
+   -webkit-transform: translate(-50%, -50%) ;
+   -moz-transform: translate(-50%, -50%) ;
+   -ms-transform: translate(-50%, -50%) ;
+   -o-transform: translate(-50%, -50%) ;
+   transition: .4s ease-in all;
+   -webkit-transition: .4s ease-in all;
+   -moz-transition: .4s ease-in all;
+   -ms-transition: .4s ease-in all;
+   -o-transition: .4s ease-in all;
+}
+
+input[type=submit]{
+    color: rgb(66, 65, 65);
+    background-color: rgb(222, 227, 228);
+    width: 8rem;
+    height: 40px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    transition: .2s ease-out all;
+    -webkit-transition: .2s ease-out all;
+    -moz-transition: .2s ease-out all;
+    -ms-transition: .2s ease-out all;
+    -o-transition: .2s ease-out all;
+}
+input[type=text]:focus{
+    border: none;
+    outline-color: rgb(36, 222, 255);
+}
+button,input[type=submit]:hover{
+    background: rgb(29, 28, 28);
+    color: rgb(248, 248, 248);
+
+}
+button:hover{
+    background: rgb(222, 227, 228);
+    color: rgb(29, 28, 28);
+    border: 11px;
+    border-color: black;}
